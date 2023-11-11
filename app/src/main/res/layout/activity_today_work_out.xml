@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/todayworkout"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginTop="90dp"
+            android:textSize="20dp"
+            android:text="Jumping Jack - 20 minutes"/>
+
+
+        <ImageView
+            android:id="@+id/gif1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/t_jumping_jack_one" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:text="Squat Kicks -10x5"/>
+
+
+        <ImageView
+            android:id="@+id/gif2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/t_squat_kicks_two" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Push Ups - 10x5"/>
+
+
+        <ImageView
+            android:id="@+id/gif3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/push_ups" />
+
+        <Button
+            android:id="@+id/exitbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="175dp"
+            android:layout_marginTop="40dp"
+            android:text="Exit"
+            android:textSize="20dp"/>
+"
+
+        <!-- <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textColor="@color/black"
+             android:layout_marginTop="20dp"
+             android:textSize="20dp"
+             android:text="Seated Abs Circles"/>
+
+
+         <ImageView
+             android:id="@+id/giffour"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:adjustViewBounds="true"
+             android:scaleType="fitCenter"
+             android:src="@drawable/seated_abs_circles" />
+
+
+
+         <ImageView
+             android:id="@+id/gifImageView4"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:adjustViewBounds="true"
+             android:scaleType="fitCenter"
+             android:src="@drawable/workout_gif_4" />
+
+         <ImageView
+             android:id="@+id/gifImageView5"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:adjustViewBounds="true"
+             android:scaleType="fitCenter"
+             android:src="@drawable/workout_gif_5" />-->
+
+    </LinearLayout>
+</ScrollView>

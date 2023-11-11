@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "768144043665",
+    "project_id": "mobileproject-8a7cc",
+    "storage_bucket": "mobileproject-8a7cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:768144043665:android:a3cef5049244294d9a1930",
+        "android_client_info": {
+          "package_name": "com.kaveesha.mobileproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "768144043665-9j5fo47r1sk41nuk6kjbibapnki70gig.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKPA2TuUH_f-Bozqi50zxZbzJsnHS-bA0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "768144043665-9j5fo47r1sk41nuk6kjbibapnki70gig.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

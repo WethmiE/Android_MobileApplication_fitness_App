@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/dietpln"
+    tools:context=".DietPlans">
+
+    <Button
+        android:id="@+id/breakfast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/whiteA"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="125dp"
+        android:text="Breakfast"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="187dp" />
+
+    <Button
+        android:id="@+id/snackam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/whiteA"
+        android:layout_marginLeft="125dp"
+        android:text="Snack Am"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="264dp" />
+
+    <Button
+        android:id="@+id/lunch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/whiteA"
+        android:layout_marginLeft="125dp"
+        android:text="Lunch"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="341dp" />
+
+    <Button
+        android:id="@+id/snackpm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/whiteA"
+        android:layout_marginLeft="125dp"
+        android:text="snack pm"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="428dp" />
+
+    <Button
+        android:id="@+id/dinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/whiteA"
+        android:text="Dinner"
+        android:layout_marginLeft="125dp"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="173dp"
+        tools:layout_editor_absoluteY="502dp" />
+</LinearLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/dashbordnew"
+    tools:context=".dashboard">
+
+    <TextView
+        android:id="@+id/locationTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/weatherTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/timeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/dietp"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/teal_700"
+        android:text="Diet Plans"
+        android:layout_marginTop="30dp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/workoutp"
+        android:layout_width="382dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/teal_700"
+        android:text=" Workout Plans"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/chartc"
+        android:layout_width="388dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/teal_700"
+        android:text="Weight Chart-BMI calculator"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/update7day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next checking date" />
+
+    <Button
+        android:id="@+id/logotd"
+        android:layout_width="219dp"
+        android:layout_height="61dp"
+        android:backgroundTint="@color/white"
+        android:text="Logout"
+        android:textColor="@color/black"
+        android:textStyle="italic" />
+
+    <ImageButton
+        android:id="@+id/imageButtonStart"
+        android:layout_width="158dp"
+        android:layout_height="154dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/startworkoutbutton" />
+
+</LinearLayout>

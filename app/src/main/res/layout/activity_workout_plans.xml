@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/workoutcover"
+    tools:context=".WorkoutPlans">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="240dp"
+        android:id="@+id/radioworkout">
+
+        <RadioButton
+            android:id="@+id/gymW"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:buttonTint="@color/purple_500"
+            android:text="Gym"
+            android:textColor="#0E0D0D"
+            android:textSize="25sp" />
+
+        <RadioButton
+            android:id="@+id/homeW"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="35dp"
+            android:buttonTint="@color/purple_500"
+            android:text="Home"
+            android:textColor="#0E0D0D"
+            android:textSize="25sp" />
+    </RadioGroup>
+
+
+
+</ScrollView>
